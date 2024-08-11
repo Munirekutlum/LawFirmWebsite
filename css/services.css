@@ -1,0 +1,171 @@
+/* Services sayfasındaki verileri göstermek için tailwindcss'i ez default ayarlarına yap.*/
+
+.services menu,
+.services ol,
+.services ul {
+  list-style: inherit;
+  margin: default;
+  padding: default;
+}
+.services h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+.services h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+.services h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+.services h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+.services h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+.services h6 {
+  font-size: 0.67em;
+  margin: 2.33em 0;
+}
+.services p {
+  margin: 1em 0;
+}
+.services blockquote {
+  margin: 1em 0;
+}
+.services ol,
+.services ul {
+  padding-left: 2em;
+}
+.services a {
+  color: #3182ce;
+  text-decoration: underline;
+}
+.services a:hover {
+  color: #2c5282;
+}
+.services a:active {
+  color: #2a4365;
+}
+.services a:visited {
+  color: #6366f1;
+}
+
+.services hr {
+  height: 0;
+  margin: 1em 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+.services hr:before {
+  display: table;
+  content: "";
+}
+.services hr:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+.services table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.services td,
+.services th {
+  padding: 0;
+}
+.services th {
+  text-align: left;
+}
+.services code,
+.services kbd,
+.services pre,
+.services samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+.services pre {
+  margin: 1em 0;
+  overflow: auto;
+}
+.services pre code {
+  display: block;
+  padding: 1em 1.5em;
+  color: #f7fafc;
+  background: #2d3748;
+}
+.services code {
+  padding: 0.2em 0.4em;
+  color: #f7fafc;
+  background: #2d3748;
+}
+.services kbd {
+  padding: 0.1em 0.4em;
+  font-size: 0.8em;
+  color: #f7fafc;
+  background: #2d3748;
+  border-radius: 0.2em;
+}
+.services kbd kbd {
+  padding: 0;
+  font-size: 1em;
+  font-weight: bold;
+}
+.services samp {
+  display: none;
+  padding: 0.2em 0.4em;
+  font-size: 0.8em;
+  color: #f7fafc;
+  background: #2d3748;
+  border-radius: 0.2em;
+}
+.services samp samp {
+  padding: 0;
+  font-size: 1em;
+  font-weight: bold;
+}
+.services abbr {
+  border-bottom: 1px dotted #e2e8f0;
+  cursor: help;
+}
+.services acronym {
+  border-bottom: 1px dotted #e2e8f0;
+  cursor: help;
+}
+.services address {
+  margin: 1em 0;
+  font-style: normal;
+}
+.services b,
+.services strong {
+  font-weight: bold;
+}
+.services dfn {
+  font-style: italic;
+}
+.services mark {
+  background: #f7fafc;
+  color: #2d3748;
+}
+.services small {
+  font-size: 0.8em;
+}
+.services sub,
+.services sup {
+  font-size: 0.8em;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+.services sup {
+  top: -0.5em;
+}
+.services sub {
+  bottom: -0.25em;
+}
